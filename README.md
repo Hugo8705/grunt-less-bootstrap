@@ -1,5 +1,5 @@
-# grunt-wordpress-theme
-Theming Bootstrap using LESS with Grunt and Bower.
+# grunt-less-bootstrap
+Theming Bootstrap using LESS with Grunt and Bower
 
 ## Installation
 
