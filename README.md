@@ -12,11 +12,9 @@ Theming Bootstrap using LESS with Grunt and Bower
 
 ## Using
 
-The LESS files are exported and minified in <i>public/assets/stylesheets</i>.
+The LESS files are exported in <i>public/assets/stylesheets</i>. If you want to minify the final CSS file run the "grunt cssmin" task.
 
-This Grunt project doesn't minified Javascript and CSS, you must add an uglify task for that. This project was build only to process LESS files.
-
-LESS Files are structured with the SMACSS approach.
+This Grunt project doesn't minified Javascript you must add an uglify task for that.
 
 You have to copy eventual fonts manually in public/assets/fonts.
 
