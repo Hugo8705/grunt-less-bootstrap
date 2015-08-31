@@ -28,19 +28,6 @@ module.exports = function(grunt) {
         }
 
     },
-    copy: {
-
-        files: {
-          expand: true,
-          flatten: true,
-          cwd: './bower_components/',
-          src: ['jquery/dist/jquery.min.js', 'bootstrap/dist/js/bootstrap.min.js',],
-          dest: './public/assets/javascript/'
-          //'./bower_components/jquery/dist/bootstrap.min.js': './public/assets/javascript/jquery.min.js',
-          //'./bower_components/bootstrap/dist/js/bootstrap.min.js': './public/assets/javascript/bootstrap.min.js'
-        }
-
-    },
     cssmin: {
       target: {
         files: {
