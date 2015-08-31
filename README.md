@@ -16,7 +16,7 @@ The LESS files are exported in <i>public/assets/stylesheets</i>. If you want to 
 
 This Grunt project doesn't minified Javascript you must add an uglify task for that.
 
-You have to copy eventual fonts manually in public/assets/fonts.
+You have to copy eventual fonts manually in <i>public/assets/fonts</i> and your custom JS file in <i>public/assets/javascript</i>.
 
 You can copy the Bootstrap and jQuery files in the <i>public/assets/javascript</i> folder running the <i>grunt copy</i> task.
 
